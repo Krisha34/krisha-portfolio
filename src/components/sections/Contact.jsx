@@ -57,13 +57,10 @@ export const Contact = () => {
     message: "",
   });
 
-  const SERVICE_ID = "service_3i01zhk";
-  const TEMPLATE_ID = "template_dssqlpn";
-  const PUBLIC_KEY = "W0BQRDLHYTyuk4fmQ";
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY).then(() => {
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then(() => {
       alert("Message sent");
       setFormData({ name: "", email: "", message: "" });
     }).catch(() => alert("Oops! Something went wrong, please try again."));
