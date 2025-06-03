@@ -46,14 +46,15 @@
 //     </section>
 // // }
 
-import React, { useState } from 'react';
-import { RevealOnScroll } from '../RevealOnScroll';
 import emailjs from 'emailjs-com';
+import { useState } from 'react';
+import { RevealOnScroll } from '../RevealOnScroll';
 import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 
-export const Contact = () => {
-  const PUBLIC_KEY = 'HcliHousv2HszBIsI'; // ← copy from EmailJS
+// ✅ INIT REQUIRED
+emailjs.init('HcliHousv2HszBIsI'); // Replace with your actual public key
 
+export const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -62,17 +63,15 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     emailjs
       .send(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
+        'service_3i01zhk',        // service ID
+        'template_dssqlpn',       // template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-        },
-        PUBLIC_KEY
+        }
       )
       .then(() => {
         alert('Message sent');
