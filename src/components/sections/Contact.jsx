@@ -52,6 +52,8 @@ import emailjs from 'emailjs-com';
 import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export const Contact = () => {
+  const PUBLIC_KEY = 'HcliHousv2HszBIsI'; // ← copy from EmailJS
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
