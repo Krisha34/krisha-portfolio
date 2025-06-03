@@ -119,7 +119,7 @@ export const Contact = () => {
             />
             <button
               type='submit'
-              className='w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 rounded transition'
+              className='w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 rounded transition cursor-pointer'
             >
               Send message
             </button>
