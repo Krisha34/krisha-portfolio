@@ -44,26 +44,42 @@
 //             </div>
 //         </RevealOnScroll>
 //     </section>
-// }
+// // }
+
 import React, { useState } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
-import emailjs from "emailjs-com";
+import emailjs from 'emailjs-com';
 import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
- 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY).then(() => {
-      alert("Message sent");
-      setFormData({ name: "", email: "", message: "" });
-    }).catch(() => alert("Oops! Something went wrong, please try again."));
+
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        import.meta.env.VITE_PUBLIC_KEY
+      )
+      .then(() => {
+        alert('Message sent');
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((err) => {
+        console.error(err);
+        alert('Oops! Something went wrong, please try again.');
+      });
   };
 
   return (
@@ -74,7 +90,6 @@ export const Contact = () => {
             Get In Touch
           </h2>
 
-          {/* Contact Form */}
           <form className='space-y-6 mb-10' onSubmit={handleSubmit}>
             <input
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -109,41 +124,28 @@ export const Contact = () => {
               Send message
             </button>
           </form>
-<div className="text-center mt-10 space-y-3">
-  {/* Name */}
-  <h3 className="text-xl font-semibold text-gray-600 p-2">@KrishaElle</h3>
 
-  {/* Phone & Email */}
-  <div className="flex justify-center p-2 items-center gap-x-6 flex-wrap text-gray-800">
-    <p className='text-md flex items-center'>
-      <FaPhoneAlt className='inline mr-2 text-blue-500' />9309043663
-    </p>
-    <p className='text-md flex items-center'>
-      <FaEnvelope className='inline mr-2 text-blue-500' />krisharelle@gmail.com
-    </p>
-  </div>
+          {/* Contact Info */}
+          <div className="text-center mt-10 space-y-3">
+            <h3 className="text-xl font-semibold text-gray-600 p-2">@KrishaElle</h3>
+            <div className="flex justify-center items-center gap-x-6 flex-wrap text-gray-800">
+              <p className='text-md flex items-center'>
+                <FaPhoneAlt className='inline mr-2 text-blue-500' /> 9309043663
+              </p>
+              <p className='text-md flex items-center'>
+                <FaEnvelope className='inline mr-2 text-blue-500' /> krisharelle@gmail.com
+              </p>
+            </div>
 
-  {/* Icons */}
-  <div className="flex justify-center items-center gap-6 mt-2">
-    <a
-      href="https://www.linkedin.com/in/krisha-elle-503203215/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:text-blue-700 text-2xl"
-    >
-      <FaLinkedin />
-    </a>
-    <a
-      href="https://github.com/Krisha34"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-500 hover:text-blue-700 text-2xl"
-    >
-      <FaGithub />
-    </a>
-  </div>
-</div>
-
+            <div className="flex justify-center items-center gap-6 mt-2">
+              <a href="https://www.linkedin.com/in/krisha-elle-503203215/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-2xl">
+                <FaLinkedin />
+              </a>
+              <a href="https://github.com/Krisha34" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-2xl">
+                <FaGithub />
+              </a>
+            </div>
+          </div>
         </div>
       </RevealOnScroll>
     </section>
