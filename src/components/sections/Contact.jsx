@@ -72,7 +72,7 @@ export const Contact = () => {
           from_email: formData.email,
           message: formData.message,
         },
-        import.meta.env.PUBLIC_KEY
+        PUBLIC_KEY
       )
       .then(() => {
         alert('Message sent');
