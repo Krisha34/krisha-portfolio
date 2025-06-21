@@ -45,7 +45,7 @@ export const ProfileDetails = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold text-blue-700 mb-1">🎓 B.E. in Computer Engineering</h3>
+            <h3 className="text-xl font-semibold text-blue-700 mb-1">🎓 B.E. in Computer Engineering with Honors in Artificial Intelligence and Machine Learning </h3>
             <p className="text-base text-gray-600 mb-2">International Institute of Information Technology (2020–2024)</p>
             <p>
               GPA: 9.08 / 10<br />
