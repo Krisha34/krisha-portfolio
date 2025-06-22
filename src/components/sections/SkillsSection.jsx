@@ -2,7 +2,7 @@ import React from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
 const skills = [
   "Python", "React", "TailwindCSS", "HTML", "CSS", "JavaScript", "NodeJS", "ExpressJS",
-  "NLP", "Docker", "Git", "GitHub", "MongoDB", "SQL", "Jira", "VS Code", "Power BI",, "Flask" ,"Microsoft Excel","Pandas"," TensorFlow","Librosa","NLTK"," scikit-learn"
+  "NLP", "Docker", "Git", "GitHub", "MongoDB", "SQL", "Jira", "VS Code", "Power BI","Kubernetes", "Flask" ,"Microsoft Excel","Pandas"," TensorFlow","Librosa","NLTK"," scikit-learn"
 ];
 
 export const SkillsSection = () => {
