@@ -104,7 +104,7 @@ import sentiment from '../../assets/sentiment.png';
 import dashboard from '../../assets/dashboard.png';
 import flipbook from '../../assets/flipbook.png';
 import ayurveda from '../../assets/ayurveda.png';
-import ard from './../assets/ard.png'
+import ard from './../assets/ard.jpg'
 const projects = [
   {
     title: 'HermesPass – Movie and Event Booking Portal',
