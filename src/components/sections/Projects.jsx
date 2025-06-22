@@ -149,6 +149,8 @@ const projects = [
     {
     title: 'Smart irrigation system and water level sensing',
     image: ard,
+        link: '#',
+
     description:
       'Developed an Arduino-based system that automates irrigation based on real-time soil moisture levels and monitors water tank levels using an ultrasonic sensor. The pump activates only when the soil is dry, with LEDs indicating water availability, ensuring efficient and sustainable water usage.',
     techStack: ['Arduino UNO', 'Soil Moisture Sensor', 'Ultrasonic Sensor (HC-SR04)', 'Relay Module', 'LEDs'],
