@@ -104,7 +104,7 @@ import sentiment from '../../assets/sentiment.png';
 import dashboard from '../../assets/dashboard.png';
 import flipbook from '../../assets/flipbook.png';
 import ayurveda from '../../assets/ayurveda.png';
-
+import ard from './../assets/ard.png'
 const projects = [
   {
     title: 'HermesPass – Movie and Event Booking Portal',
@@ -145,6 +145,13 @@ const projects = [
     description:
       'Created a health-focused web application for browsing millet-based Ayurvedic remedies. Designed a clean UX to let users explore health conditions and view mapped nutritional solutions for holistic wellness.',
     techStack: ['HTML', 'CSS', 'JavaScript'],
+  },
+    {
+    title: 'Smart irrigation system and water level sensing',
+    image: ard,
+    description:
+      'Developed an Arduino-based system that automates irrigation based on real-time soil moisture levels and monitors water tank levels using an ultrasonic sensor. The pump activates only when the soil is dry, with LEDs indicating water availability, ensuring efficient and sustainable water usage.',
+    techStack: ['Arduino UNO', 'Soil Moisture Sensor', 'Ultrasonic Sensor (HC-SR04)', 'Relay Module', 'LEDs'],
   },
 ];
 
