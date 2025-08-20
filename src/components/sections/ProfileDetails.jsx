@@ -9,10 +9,22 @@ export const ProfileDetails = () => {
         <h2 className="text-4xl font-bold text-center mb-10 bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
           Experience
         </h2>
+          <div>
+            <h3 className="text-xl font-bold text-blue-700 mb-1">💼 Research Intern – Indiana University Bloomington</h3>
+            <p className="text-sm text-gray-600 mb-2">May 2025 – Present</p>
+            <p>
+        Developed a PDF redaction detection pipeline with OpenCV, pdf2image, ReportLab, grouping redaction boxes and exporting
+ annotated PDFs.Automated collection of 1,500+ legal documents with Parsehub, Python (Selenium, BeautifulSoup), achieving 75% metadata
+ extraction accuracy. Built ETL workflows (Pandas, NumPy, Regex) and integrated OCR (PyMuPDF, Tesseract) to clean, normalize, and designed custom
+ grouping algorithms for vertically continuous redaction
+       </p>
+
+       <br></br>
+          </div>
 
         <div className="space-y-10 text-[17px] leading-relaxed">
           <div>
-            <h3 className="text-xl font-bold text-blue-700 mb-1">💼 Student Intern – Siemens</h3>
+            <h3 className="text-xl font-bold text-blue-700 mb-1">💼 Software Intern – Siemens</h3>
             <p className="text-sm text-gray-600 mb-2">Feb 2023 – May 2023</p>
             <p>
            Migrated legacy AOS test files to enhance distributed system efficiency, configured automation pipelines to improve build reliability, and contributed to code reviews, debugging, and integration testing for optimized performance delivery.

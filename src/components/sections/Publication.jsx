@@ -17,7 +17,7 @@ export const Publication = () => {
                 Exploring Dual-Module Approaches for Sentiment Analysis in Call Recordings
               </h3>
               <p className="mb-4 text-gray-600 text-base text-justify">
-                IEEE,2024
+                IEEE, 2024
               </p>
               <p className="mb-4 text-gray-600 text-lg text-justify">
                 This paper presents a dual-module sentiment analysis system for call recordings, combining speech-to-text
@@ -40,7 +40,7 @@ export const Publication = () => {
                 Sentiment Analysis across Modalities: A Comprehensive Review of Text and Audio Approaches
               </h3>
               <p className="mb-4 text-gray-600 text-base text-justify">
-                IEEE,2024
+                IEEE, 2024
               </p>
               <p className="mb-4 text-gray-600 text-lg text-justify">
                 This paper offers a comprehensive overview of sentiment analysis research across modalities, focusing on

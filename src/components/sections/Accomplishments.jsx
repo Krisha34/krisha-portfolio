@@ -9,8 +9,15 @@ export const Accomplishments = () => {
         <h2 className="text-4xl font-bold text-center mb-10 bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
           Accomplishments & Leadership
         </h2>
+         <div className="space-y-10 text-[17px] leading-relaxed">
+          <div>
+            <h3 className="text-xl font-semibold text-blue-700 mb-1">🎓 Associate Instructor</h3>
+            <p className="text-sm text-gray-600 mb-2">(Summer 2025 – Present)</p>
+            <p>
+              Mentored 30+ students at Luddy School in CSCI-C102: Great Ideas in Computing on
+Python programming and Arduino projects.   </p>
+          </div>
 
-        <div className="space-y-10 text-[17px] leading-relaxed">
           <div>
             <h3 className="text-xl font-semibold text-blue-700 mb-1">🏅 Dr L H Hiranandani Award</h3>
             <p className="text-sm text-gray-600 mb-2">2024</p>
