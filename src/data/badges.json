@@ -1,0 +1,191 @@
+[
+  {
+    "id": "5b080f4c-d6ec-4c04-a416-cead4fd8ee41",
+    "name": "Build with Gemini",
+    "issuer": "Google Cloud",
+    "imageUrl": "https://images.credly.com/images/384e1386-110e-439d-8014-18fe42bb5f18/blob",
+    "url": "https://www.credly.com/org/google-cloud/badge/build-with-gemini.1",
+    "issuedAt": "2026-10-13",
+    "expiresAt": null
+  },
+  {
+    "id": "df80ffcb-2bb9-4ab1-9bd8-6b69ac232eed",
+    "name": "Deploy an Agent with Agent Development Kit (ADK)",
+    "issuer": "Google Cloud",
+    "imageUrl": "https://images.credly.com/images/e9c45e2a-a48e-4686-99df-7de0ccd6dae7/blob",
+    "url": "https://www.credly.com/org/google-cloud/badge/deploy-an-agent-with-agent-development-kit-adk",
+    "issuedAt": "2026-09-25",
+    "expiresAt": null
+  },
+  {
+    "id": "43f01e70-167e-4cee-8f5a-c936182a9926",
+    "name": "Certified Partner Specialist Gemini Enterprise Agent Development",
+    "issuer": "Google Cloud",
+    "imageUrl": "https://images.credly.com/images/73e93208-0df3-435d-b58c-07c8ee6019d9/blob",
+    "url": "https://www.credly.com/org/google-cloud/badge/certified-partner-specialist-gemini-enterprise-agen",
+    "issuedAt": "2026-09-25",
+    "expiresAt": "2027-03-25"
+  },
+  {
+    "id": "3a7b7991-2daf-4003-a74f-4209d1600877",
+    "name": "Evaluate and Improve Agent Development Kit Agents",
+    "issuer": "Google Cloud",
+    "imageUrl": "https://images.credly.com/images/b1800059-b7de-4065-851d-678287ea0720/blob",
+    "url": "https://www.credly.com/org/google-cloud/badge/evaluate-and-improve-agent-development-kit-agents",
+    "issuedAt": "2026-09-24",
+    "expiresAt": null
+  },
+  {
+    "id": "efdac06f-d072-4c21-8210-74495dc636ac",
+    "name": "Accelerate Development with Antigravity",
+    "issuer": "Google Cloud",
+    "imageUrl": "https://images.credly.com/images/9a9bd5ca-b41b-41ed-82ad-43968d960f62/blob",
+    "url": "https://www.credly.com/org/google-cloud/badge/accelerate-development-with-antigravity",
+    "issuedAt": "2026-09-23",
+    "expiresAt": null
+  },
+  {
+    "id": "6ebff211-19c6-411d-aca4-1d0384a8893d",
+    "name": "Docker Essentials: A Developer Introduction",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/b0c5445a-72a2-46ce-a599-96147e210efb/blob",
+    "url": "https://www.credly.com/org/ibm/badge/docker-essentials-a-developer-introduction",
+    "issuedAt": "2026-09-11",
+    "expiresAt": null
+  },
+  {
+    "id": "7e18f6bc-eabe-4114-92b0-b570158c0173",
+    "name": "Containers & Kubernetes Essentials",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/82966826-6630-4768-80d4-6028b3fab414/image.png",
+    "url": "https://www.credly.com/org/ibm/badge/containers-kubernetes-essentials",
+    "issuedAt": "2026-09-11",
+    "expiresAt": null
+  },
+  {
+    "id": "95d915ff-a99a-42e6-8b19-a3ceebaea5db",
+    "name": "AWS Certified Cloud Practitioner",
+    "issuer": "Amazon Web Services Training and Certification",
+    "imageUrl": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+    "url": "https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner",
+    "issuedAt": "2026-09-09",
+    "expiresAt": "2029-09-09"
+  },
+  {
+    "id": "ddb2d095-374d-4d41-9b20-cd75fd4e9d1a",
+    "name": "Claude Certified Developer - Foundations",
+    "issuer": "Anthropic",
+    "imageUrl": "https://images.credly.com/images/f101c6ac-8a2d-4220-b381-70e3e6c364e3/blob",
+    "url": "https://www.credly.com/org/anthropic/badge/claude-certified-developer-foundations",
+    "issuedAt": "2026-09-07",
+    "expiresAt": "2027-09-07"
+  },
+  {
+    "id": "ab2eac99-5e78-4f91-8af9-955c705a7eaa",
+    "name": "IBM DevSecOps Explorer - Security & Automation for DevOps",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/11738ad9-7dc0-45c1-ada0-918730663c1e/IBM-DevSecOps-Explorer---Security-and-Automation-for-DevOps.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-devsecops-explorer-security-automation-for-devo",
+    "issuedAt": "2026-09-04",
+    "expiresAt": null
+  },
+  {
+    "id": "eeb0790f-343e-4c34-beda-07690202f226",
+    "name": "IBM Entry-Level Hire (ELH) Program Certificate",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/d1356def-b744-4619-9f14-60e9cab6fedd/IBM_20Entry_20Level_20Hire_20ELH_20Program-Certificate.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-entry-level-hire-elh-program-certificate",
+    "issuedAt": "2026-08-28",
+    "expiresAt": "2031-08-28"
+  },
+  {
+    "id": "e854635b-3b4d-4c61-91d8-fbcacc26bb21",
+    "name": "IBM Generative & Agentic AI Expert - Developer",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/3ca1feea-7209-462f-8b97-c4db28f597b9/IBM-Generative-Agentic-AI-Expert---Developer.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-expert-developer",
+    "issuedAt": "2026-08-25",
+    "expiresAt": "2027-08-25"
+  },
+  {
+    "id": "5098af60-bc4c-436b-8e63-7076f41a4e31",
+    "name": "IBM Generative & Agentic AI Developer",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/d610767c-c268-49a3-af8d-1b0e7ad8940b/IBM-Generative-and-Agentic-AI-Developer---Intermediate.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-developer",
+    "issuedAt": "2026-08-06",
+    "expiresAt": "2027-08-06"
+  },
+  {
+    "id": "6adc73d1-46b2-446f-8102-4e3d38c7bcf2",
+    "name": "Claude Partner Badge - Claude Code",
+    "issuer": "Anthropic",
+    "imageUrl": "https://images.credly.com/images/d8bc1ecf-6369-4bf9-8920-84169b35d918/blob",
+    "url": "https://www.credly.com/org/anthropic/badge/claude-partner-badge-claude-code",
+    "issuedAt": "2026-08-06",
+    "expiresAt": "2027-02-06"
+  },
+  {
+    "id": "11637326-d6a4-48a1-bb0c-0620c2907302",
+    "name": "Power Skills - Communication, Presentation, Collaboration, and Problem Solving",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/e76b1621-165a-4998-b854-f500ec3c45e1/69e9d5aebecc0c6c0c5dfb6b.png",
+    "url": "https://www.credly.com/org/ibm/badge/power-skills-communication-presentation-collaborati",
+    "issuedAt": "2026-08-03",
+    "expiresAt": null
+  },
+  {
+    "id": "343ed9df-4c40-4aae-871f-3a0b5bccb39c",
+    "name": "IBM Growth Behaviors",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/d0b3cb7d-f195-4a78-b10b-28a69a4ef49f/69eb775cc80a2549e6edea71.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-growth-behaviors",
+    "issuedAt": "2026-08-02",
+    "expiresAt": "2036-08-02"
+  },
+  {
+    "id": "01d45bce-ed45-4002-8059-6bf6f1667bc1",
+    "name": "2026 IBMer watsonx Challenge",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/703c1e3c-800f-4050-b9c0-d6d259e3b187/2026-IBMer-watsonx-Challenge.png",
+    "url": "https://www.credly.com/org/ibm/badge/2026-ibmer-watsonx-challenge",
+    "issuedAt": "2026-07-28",
+    "expiresAt": null
+  },
+  {
+    "id": "6337e648-3726-4d0a-ad33-e5078115b785",
+    "name": "Enterprise Design Thinking Practitioner",
+    "issuer": "IBM SkillsBuild",
+    "imageUrl": "https://images.credly.com/images/520b12b6-dac0-4731-a4f6-e41427201422/BadgeEmblem_EnterpriseDesignThinkingPractitioner.png",
+    "url": "https://www.credly.com/org/ibm-skillsbuild/badge/enterprise-design-thinking-practitioner.1",
+    "issuedAt": "2026-07-19",
+    "expiresAt": null
+  },
+  {
+    "id": "f4f03e50-e0d5-48dc-83cc-c4ec5cdcc00f",
+    "name": "IBM Garage Essentials",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/fb718a87-6d0d-4a6d-8068-677f1bec78f2/IBM_Garage_Essentials.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-garage-essentials",
+    "issuedAt": "2026-07-14",
+    "expiresAt": null
+  },
+  {
+    "id": "979f3554-799c-4995-8035-384e7e89e547",
+    "name": "IBM Generative & Agentic AI Foundation",
+    "issuer": "IBM",
+    "imageUrl": "https://images.credly.com/images/95ae9d80-bc45-40fa-84a1-45cba63bd44b/IBM-Generative-and-Agentic-AI-Foundation.png",
+    "url": "https://www.credly.com/org/ibm/badge/ibm-generative-agentic-ai-foundation",
+    "issuedAt": "2026-06-21",
+    "expiresAt": "2027-06-21"
+  },
+  {
+    "id": "63f62635-26f7-45ff-9f7e-25a1bc261334",
+    "name": "AWS Educate Getting Started with Compute - Training Badge",
+    "issuer": "Amazon Web Services Training and Certification",
+    "imageUrl": "https://images.credly.com/images/7b08cc0e-064b-407d-b70e-323509c3e474/blob",
+    "url": "https://www.credly.com/org/amazon-web-services/badge/aws-educate-getting-started-with-compute-training-b",
+    "issuedAt": "2023-02-16",
+    "expiresAt": null
+  }
+]

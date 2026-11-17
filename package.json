@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "fetch-badges": "node scripts/fetch-badges.mjs",
+    "prebuild": "npm run fetch-badges",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

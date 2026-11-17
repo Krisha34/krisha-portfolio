@@ -50,6 +50,14 @@ export const ProfileDetails = () => {
               <li>Submitted change packages, addressed code review feedback, and validated builds and tests through automated pipelines.</li>
             </ul>
           </div>
+
+          <div>
+            <h3 className="text-xl font-bold text-blue-700 mb-1">💼 Data Analyst Intern – Pune Knowledge Cluster</h3>
+            <p className="text-sm text-gray-600 mb-2">February 2023 – May 2023 · Pune, India</p>
+            <p>
+              Analyzed large-scale COVID-19 datasets and built Power BI dashboards to visualize test results and demographic trends. Enabled data-driven insights that informed health reporting and public policy.
+            </p>
+          </div>
         </div>
 
         {/* Education Section */}

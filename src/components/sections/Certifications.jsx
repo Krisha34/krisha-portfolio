@@ -1,40 +1,45 @@
 import React from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
-
-const certifications = [
-  { name: 'AWS Certified Cloud Practitioner', issuer: 'Amazon Web Services (AWS)' },
-  { name: 'Oracle Database SQL Certified Associate', issuer: 'Oracle' },
-  { name: 'Oracle Fusion Cloud Applications HCM Process Essentials Certified', issuer: 'Oracle' },
-  { name: 'Claude Certified Developer - Foundations', issuer: 'Anthropic' },
-  { name: 'Claude Partner Badge - Claude Code', issuer: 'Anthropic' },
-  { name: 'Introduction to Model Context Protocol', issuer: 'Anthropic', date: 'Aug 2026' },
-  { name: 'Claude Code 101', issuer: 'Anthropic', date: 'Aug 2026' },
-  { name: 'Gemini Enterprise Agent Development', issuer: 'Google' },
-  { name: 'IBM Generative & Agentic AI Expert - Developer', issuer: 'IBM' },
-  { name: '2026 IBMer watsonx Challenge', issuer: 'IBM' },
-];
+import badges from '../../data/badges.json';
 
 export const Certifications = () => {
   return (
     <section id="certifications" className="py-20 bg-blue-50 text-gray-800">
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-10 bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
             Licenses & Certifications
           </h2>
+          <p className="text-center text-sm text-gray-600 mb-10">
+            Synced from{' '}
+            <a
+              href="https://www.credly.com/users/krisha-elle"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-indigo-600 font-medium transition-colors"
+            >
+              Credly
+            </a>
+          </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {certifications.map((cert, index) => (
-              <div
-                key={index}
-                className="p-6 rounded-xl bg-white shadow hover:-translate-y-1 hover:shadow-md transition"
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+            {badges.map((badge) => (
+              <a
+                key={badge.id}
+                href={badge.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex flex-col items-center text-center p-4 rounded-xl bg-white shadow hover:-translate-y-1 hover:shadow-md transition"
               >
-                <h3 className="text-lg font-bold text-blue-900 mb-1">{cert.name}</h3>
-                <p className="text-sm text-gray-600">
-                  {cert.issuer}
-                  {cert.date && ` · ${cert.date}`}
-                </p>
-              </div>
+                <img
+                  src={badge.imageUrl}
+                  alt={badge.name}
+                  className="w-20 h-20 object-contain mb-3"
+                  loading="lazy"
+                />
+                <h3 className="text-sm font-semibold text-blue-900 leading-snug">{badge.name}</h3>
+                <p className="text-xs text-gray-600 mt-1">{badge.issuer}</p>
+              </a>
             ))}
           </div>
         </div>
