@@ -13,6 +13,7 @@ import { Publication } from './components/sections/Publication'
 import { ProfileDetails } from './components/sections/ProfileDetails'
 import { SkillsSection } from './components/sections/SkillsSection'
 import { Accomplishments } from './components/sections/Accomplishments'
+import { Certifications } from './components/sections/Certifications'
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false); // FIXED: camelCase
@@ -36,6 +37,7 @@ function App() {
       <Projects/>
       <Publication/>
       <ProfileDetails/>
+      <Certifications/>
       <SkillsSection/>
       <Accomplishments/>
       <Contact/>

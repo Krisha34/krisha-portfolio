@@ -32,7 +32,7 @@ export const Home = () => {
 
             <div className="flex justify-center md:justify-start space-x-4">
               <a
-                href="https://drive.google.com/file/d/1rvkURdr2nk3QAI8vgOwIs17RGN__af9-/view?usp=sharing"
+                href="https://drive.google.com/file/d/1t0Ln7YHCTff04NBzm5RAQc3M5AFtd926/view?usp=sharing"
                 className="text-lg bg-blue-500 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
               >
                 Resume

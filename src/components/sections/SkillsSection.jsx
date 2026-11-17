@@ -1,8 +1,19 @@
 import React from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
 const skills = [
-  "Python", "React", "TailwindCSS", "HTML", "CSS", "JavaScript", "NodeJS", "ExpressJS",
-  "NLP", "Docker", "Git", "GitHub", "MongoDB", "SQL", "Jira", "VS Code", "Power BI","Kubernetes", "Flask" ,"Microsoft Excel","Pandas"," TensorFlow","Librosa","NLTK"," scikit-learn"
+  // Languages
+  "Python", "JavaScript", "TypeScript", "Java", "C++", "SQL", "HTML", "CSS",
+  // Frontend
+  "React.js", "Next.js", "TailwindCSS",
+  // Backend
+  "Node.js", "Express.js", "FastAPI", "Spring Boot", "REST APIs", "Flask",
+  // AI / ML
+  "LangChain", "LangGraph", "RAG", "NLP", "TensorFlow", "Scikit-learn", "NumPy", "Pandas", "NLTK", "Librosa", "OpenCV", "PyMuPDF",
+  // Cloud & DevOps
+  "AWS", "Microsoft Azure", "Docker", "Kubernetes", "GitHub Actions (CI/CD)", "Linux", "Terraform",
+  // Databases & Tools
+  "PostgreSQL", "MongoDB", "MySQL", "Supabase", "ChromaDB", "Pinecone", "Redis",
+  "Git", "GitHub", "Jira", "Postman", "VS Code", "Power BI", "Jupyter", "Microsoft Excel",
 ];
 
 export const SkillsSection = () => {

@@ -104,22 +104,67 @@ import sentiment from '../../assets/sentiment.png';
 import dashboard from '../../assets/dashboard.png';
 import flipbook from '../../assets/flipbook.png';
 import ayurveda from '../../assets/ayurveda.png';
-import ard from '../../assets/ard.jpg'
+import ard from '../../assets/ard.jpg';
+import bluepeak from '../../assets//bluepeak.png';
+import cloud from '../../assets/cloud.png';
 const projects = [
+    {
+    title: 'Agentic AI Claims Leakage Detection — 2nd Place, Plutus × Aperture',
+    image: null,
+    link: '#',
+    description:
+      'Built a multi-agent AI system with 3 autonomous agents (Python, FastAPI, React) leveraging Gemini 2.5-Flash and RAG (ChromaDB vector search) to evaluate insurance claim risk, with prompt pipelines for structured JSON outputs. Established an event-driven WebSocket system to deliver real-time AI decisions (approve/flag) with a human-in-the-loop approval workflow.',
+    techStack: ['Python', 'FastAPI', 'React', 'Gemini 2.5-Flash', 'ChromaDB', 'RAG', 'WebSockets', 'ServiceNow FSO'],
+  },
+    {
+    title: 'BluePeak Scout — AI Market Intelligence Platform',
+    image: bluepeak,
+    link: 'https://github.com/Krisha34/BluePeak-Scout-The-AI-Market-Intelligence-Copilot',
+    description:
+      'Engineered a full-stack application (Next.js, FastAPI) to automate competitor research workflows, eliminating ~10 hours/week of manual analysis through structured ingestion and backend processing pipelines. Implemented a RAG pipeline (LangChain + Chroma/Pinecone) with embedding-based retrieval and hybrid semantic search, with conversation history persisted in Supabase. Integrated WebSocket-based real-time updates and backend notification workflows (email + Slack) within a unified FastAPI service.',
+techStack: [
+  'FastAPI',
+  'Python',
+  'Next.js',
+  'React',
+  'TypeScript',
+  'LangChain',
+  'LangGraph',
+  'Claude API',
+  'ChromaDB',
+  'Pinecone',
+  'Redis',
+  'Supabase',
+  'PostgreSQL',
+  'REST APIs',
+  'WebSockets',
+  'Docker'
+],
+
+  },
+    {
+    title: 'Cloud-Native Microservices Platform',
+    image: cloud,
+    link: '#',
+    description:
+      'Developed a secure backend using Java (Spring Boot), JWT authentication, and PostgreSQL, implementing REST APIs for core microservices. Containerized services with Docker and deployed to Azure Kubernetes Service (AKS) using GitHub Actions, reducing deployment time by 80%. Integrated four microservices through an API Gateway to enable a cloud-native, production-ready system emphasizing scalability and reliability.',
+    techStack: ['Java', 'Spring Boot', 'Spring Cloud Gateway', 'Docker', 'Kubernetes', 'Microsoft Azure (AKS)', 'Terraform', 'GitHub Actions']
+,
+  },
   {
     title: 'HermesPass – Movie and Event Booking Portal',
     image: hermespass,
     link: 'https://beamish-baklava-7a2363.netlify.app/',
     description:
-      'Built a full-stack event booking platform with customer login, Google OAuth, seat selection, and Stripe-based payments. Implemented real-time event filtering, admin dashboards for managing events and offers, and integrated Google AdSense to boost organizer efficiency.',
+      'Built a scalable MERN-based booking platform with JWT and Google OAuth authentication, interactive seat selection, real-time search/filtering, and secure Stripe payments. Implemented Docker-based containerization with CI/CD pipelines (GitHub Actions) and deployed on Render Cloud. Added admin dashboards, media uploads, and modular REST APIs for efficient event management and real-time analytics.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe API', 'Google OAuth'],
   },
   {
     title: 'Sentiment Analysis of Voice Calls',
     image: sentiment,
-    link: '#',
+    link: 'https://github.com/Krisha34/Sentiment-analysis-of-voice-calls',
     description:
-      'Developed a dual-module sentiment analysis system combining speech-to-text NLP and audio-based emotion detection. Used Google Speech API, Librosa, and CNNs to achieve 70%+ accuracy across multiple sentiment and emotion classifiers.',
+      'Led an end-to-end dual-module sentiment analysis system with a speech-to-text classifier (70% accuracy) and a CNN-based audio emotion detector (60% accuracy), delivered through a Flask-based full-stack application integrating Google Speech-to-Text API.',
     techStack: ['Flask', 'Google Speech API', 'TensorFlow', 'scikit-learn', 'NLTK', 'Librosa'],
   },
   {
@@ -172,7 +217,9 @@ export const Projects = () => {
     key={index}
     className="p-6 rounded-xl bg-white shadow hover:-translate-y-1 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
   >
-    <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-lg mb-4" />
+    {project.image && (
+      <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-lg mb-4" />
+    )}
     <h3 className="text-xl font-bold mb-2 text-blue-900">{project.title}</h3>
     <p className="mb-4 text-gray-700 text-lg text-justify">{project.description}</p>
 
@@ -189,7 +236,9 @@ export const Projects = () => {
 
 {(project.title !== 'Covid-19 Dashboard using Power BI' &&
   project.title !== 'Flipbook Library' &&
-  project.title !== 'Sentiment Analysis of Voice Calls') && (
+  project.title !== 'Cloud-Native Microservices Platform' &&
+  project.title !== 'Agentic AI Claims Leakage Detection — 2nd Place, Plutus × Aperture' &&
+  project.title !== 'Smart irrigation system and water level sensing' ) && (
   <a
     href={project.link}
     className="inline-block mt-2 text-base font-medium text-blue-600 hover:text-indigo-600 transition-colors"

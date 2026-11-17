@@ -11,6 +11,22 @@ export const Accomplishments = () => {
         </h2>
          <div className="space-y-10 text-[17px] leading-relaxed">
           <div>
+            <h3 className="text-xl font-semibold text-blue-700 mb-1">🥈 2nd Place – Plutus × IU Case Competition</h3>
+            <p className="text-sm text-gray-600 mb-2">March 2026 · Bloomington, Indiana</p>
+            <p>
+              Placed 2nd out of competing teams in the Transforming Insurance with Agentic AI case competition, sponsored by Plutus (backed by Moneta Ventures & ServiceNow Ventures) and hosted by Aperture Partners. Designed and pitched Agentic Leakage Detection — an autonomous AI agent system built on ServiceNow FSO that intercepts insurance claim leakage in real-time.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-blue-700 mb-1">🏆 1st Place – Luddy Hackathon</h3>
+            <p className="text-sm text-gray-600 mb-2">April 2026 · Bloomington, Indiana</p>
+            <p>
+              Built a real-time city health monitoring system processing live sensor streams across 50+ Indianapolis districts using Apache Flink, Kafka, Redis, FastAPI, and Docker.
+            </p>
+          </div>
+
+          <div>
             <h3 className="text-xl font-semibold text-blue-700 mb-1">🎓 Associate Instructor</h3>
             <p className="text-sm text-gray-600 mb-2">(Summer 2025 – Present)</p>
             <p>

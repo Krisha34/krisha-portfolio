@@ -49,7 +49,7 @@
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
-import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
 
 // ✅ INIT REQUIRED
 emailjs.init('HcliHousv2HszBIsI'); // Replace with your actual public key
@@ -144,6 +144,9 @@ export const Contact = () => {
               </a>
               <a href="https://github.com/Krisha34" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-2xl">
                 <FaGithub />
+              </a>
+              <a href="https://www.youtube.com/@krishaelle7415" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-2xl">
+                <FaYoutube />
               </a>
             </div>
           </div>

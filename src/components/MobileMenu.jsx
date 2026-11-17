@@ -21,7 +21,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         &times;
       </button>
 
-      {["home", "about", "projects","publication","experience", "contact"].map((section) => (
+      {["home", "about", "projects","publication","experience","certifications", "contact"].map((section) => (
         <a
           key={section}
           href={`#${section}`}
